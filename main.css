@@ -1,0 +1,71 @@
+body {
+    background-color: #e6ffff;
+    max-width:700px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 6px;
+}
+
+h1 {
+     color: #0066ff;
+     text-align: center;
+     font-size: 36px;
+     font-family: 'Arvo', serif;
+}
+
+p {
+     font-family: 'Catamaran', sans-serif;
+     font-size: 16px;
+     line-height: 1.6;
+}
+ 
+img { 
+     max-width: 800px;
+    
+}
+
+
+/* unvisited link */
+a:link {
+    color: #ffb3ff;
+}
+
+/* visited link */
+a:visited {
+    color: #ccff66;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration none;
+}
+
+/* selected link */
+a:active {
+    color: #990033;
+}
+
+#top, #bottom, #left, #right {
+	background:  #66ffff;
+	position: fixed;
+
+	}
+
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+
+		}
+
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+
+		}
+
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
